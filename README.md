@@ -1,6 +1,6 @@
 # hadoop-practice
 
-1. core components
+- core components
   - hdfs
     - namenode
     - datanode
@@ -15,11 +15,11 @@
     - partitioner
     - combiner
     - reducer
-2. cluster configuration - ec2 / 물리장비 / 가상화
+- cluster configuration - ec2 / 물리장비 / 가상화
   - ssh
   - nfs
   - ldap
   - hadoop
   - bash
   - ansible
-3. nnd basic implement
+- nnd basic implement
