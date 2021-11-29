@@ -22,4 +22,8 @@
   - hadoop
   - bash
   - ansible
-- nnd basic implement
+- mapreduce implements
+  - wordcount
+  - triangle
+  - nndescent
+  - pacc
