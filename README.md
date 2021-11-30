@@ -16,9 +16,10 @@
     - combiner
     - reducer
 - cluster configuration - ec2 / 물리장비 / 가상화
+  - network settings
   - ssh
   - nfs
-  - ldap
+  - ldap/kerberos
   - hadoop
   - bash
   - ansible
