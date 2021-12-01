@@ -15,14 +15,20 @@
     - partitioner
     - combiner
     - reducer
-- cluster configuration - ec2 / 물리장비 / 가상화
+- cluster configuration - ec2(emr) / r-pi / kvm
   - network settings
-  - ssh
-  - nfs
+    - switch
+    - private ip
+    - ssh
+  - filesystem
+    - nfs
   - ldap/kerberos
   - hadoop
-  - bash
-  - ansible
+    - install
+    - config(master-slave)
+  - automations
+    - bash
+    - ansible
 - mapreduce implements
   - wordcount
   - triangle
