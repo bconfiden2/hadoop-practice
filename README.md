@@ -20,6 +20,7 @@
     - switch
     - private ip
     - ssh
+    - nat
   - filesystem
     - nfs
   - ldap/kerberos
@@ -30,6 +31,12 @@
     - bash
     - ansible
 - mapreduce implements
+  - class
+    - Job,Configured,Tool,ToolRunner
+    - FileSystem
+    - TaskCounter
+    - Writables
+    - Input/Output Formats
   - wordcount
   - triangle
   - nndescent
