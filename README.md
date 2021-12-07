@@ -18,9 +18,9 @@
 - cluster configuration - ec2(emr) / r-pi / kvm
   - network settings
     - switch
-    - private ip
-    - ssh
-    - nat
+    - private ip(netplan, hostname, NetworkManager/networkd monitoring)
+    - ssh(hostname)
+    - nat(iptables, MASQUERADE & FORWARD)
   - filesystem
     - nfs
   - ldap/kerberos
