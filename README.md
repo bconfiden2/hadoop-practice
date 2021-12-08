@@ -21,6 +21,7 @@
     - private ip(netplan, hostname, NetworkManager/networkd monitoring)
     - ssh(hostname)
     - nat(iptables, MASQUERADE & FORWARD)
+    - dhcp, tftp
   - filesystem
     - nfs
   - ldap/kerberos
