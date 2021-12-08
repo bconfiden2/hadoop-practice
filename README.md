@@ -29,6 +29,7 @@
     - config(master-slave)
   - automations
     - bash
+    - pssh
     - ansible
 - mapreduce implements
   - class
