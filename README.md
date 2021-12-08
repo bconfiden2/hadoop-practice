@@ -30,6 +30,7 @@
   - automations
     - bash
     - pssh
+    - puppet
     - ansible
 - mapreduce implements
   - class
