@@ -15,7 +15,7 @@
     - partitioner
     - combiner
     - reducer
-- cluster configuration - ec2(emr) / r-pi / kvm
+- cluster configuration - rpi
   - network settings
     - switch
     - private ip(netplan, hostname, NetworkManager/networkd monitoring)
@@ -40,6 +40,7 @@
     - TaskCounter
     - Writables
     - Input/Output Formats
+    - MultipleInput/Output
   - wordcount
   - triangle
   - nndescent
