@@ -27,7 +27,7 @@
   - ldap/kerberos
   - hadoop
     - install
-    - config(master-slave)
+    - [config](config)
   - automations
     - bash
     - pssh
@@ -43,5 +43,5 @@
     - MultipleInput/Output
   - wordcount
   - triangle
-  - nndescent
+  - [nndescent](src/main/java/nndescent)
   - pacc
