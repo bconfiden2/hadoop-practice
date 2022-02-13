@@ -44,4 +44,5 @@
   - wordcount
   - triangle
   - [nndescent](src/main/java/nndescent)
+  - [rptree](src/main/java/rptree)
   - pacc
