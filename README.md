@@ -1,46 +1,16 @@
-# hadoop-practice
+# mapreduce-samples
 
-- core components
-  - hdfs
-    - namenode
-    - datanode
-    - secondary
-    - standby
-  - yarn
-    - scheduler
-    - resource manager
-    - node manager
-  - mapreduce
-    - mapper
-    - partitioner
-    - combiner
-    - reducer
-- cluster configuration - rpi
-  - network settings
-    - switch
-    - private ip(netplan, hostname, NetworkManager/networkd monitoring)
-    - ssh(hostname)
-    - nat(iptables, MASQUERADE & FORWARD)
-    - dhcp, tftp
-  - filesystem
-    - nfs
-  - ldap/kerberos
-  - hadoop
-    - install
-    - [config](config)
-  - automations
-    - bash
-    - pssh
-    - puppet
-    - ansible
+- [Configurations](config)
+
+- mapreduce components
+  - Job,Configured,Tool,ToolRunner
+  - FileSystem
+  - TaskCounter
+  - Writables
+  - Input/OutputFormat
+  - MultipleInput/Output
+
 - mapreduce implements
-  - class
-    - Job,Configured,Tool,ToolRunner
-    - FileSystem
-    - TaskCounter
-    - Writables
-    - Input/Output Formats
-    - MultipleInput/Output
   - [wordcount](src/main/java/wordcount)
   - triangle
   - [nndescent](src/main/java/nndescent)
