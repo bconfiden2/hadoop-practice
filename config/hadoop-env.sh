@@ -144,7 +144,7 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # Enable optional, bundled Hadoop features
 # This is a comma delimited list.  It may NOT be overridden via .hadooprc
 # Entries may be added/removed as needed.
-# export HADOOP_OPTIONAL_TOOLS="hadoop-azure-datalake,hadoop-azure,hadoop-kafka,hadoop-aliyun,hadoop-aws,hadoop-openstack"
+# export HADOOP_OPTIONAL_TOOLS="hadoop-aliyun,hadoop-openstack,hadoop-azure,hadoop-azure-datalake,hadoop-aws,hadoop-kafka"
 
 ###
 # Options for remote shell connectivity
@@ -416,17 +416,4 @@ export HADOOP_OS_TYPE=${HADOOP_OS_TYPE:-$(uname -s)}
 # For example, to limit who can execute the namenode command,
 # export HDFS_NAMENODE_USER=hdfs
 
-
-###
-# Registry DNS specific parameters
-###
-# For privileged registry DNS, user to run as after dropping privileges
-# This will replace the hadoop.id.str Java property in secure mode.
-# export HADOOP_REGISTRYDNS_SECURE_USER=yarn
-
-# Supplemental options for privileged registry DNS
-# By default, Hadoop uses jsvc which needs to know to launch a
-# server jvm.
-# export HADOOP_REGISTRYDNS_SECURE_EXTRA_OPTS="-jvm server"
-
-export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-arm64
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64
