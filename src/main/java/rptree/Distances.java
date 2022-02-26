@@ -1,4 +1,4 @@
-package nndescent;
+package rptree;
 
 public class Distances {
     public static float l2(float[] a, float[] b){

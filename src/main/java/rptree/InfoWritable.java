@@ -1,4 +1,4 @@
-package writableRPT;
+package rptree;
 
 import org.apache.hadoop.io.Writable;
 
