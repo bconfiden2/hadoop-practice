@@ -1,16 +1,8 @@
-# mapreduce-samples
+# hadoop-samples
 
 - [Configurations](config)
 
-- mapreduce components
-  - Job,Configured,Tool,ToolRunner
-  - FileSystem
-  - TaskCounter
-  - Writables
-  - Input/OutputFormat
-  - MultipleInput/Output
-
-- mapreduce implements
+- MapReduce Implements
   - [wordcount](src/main/java/wordcount)
   - triangle
   - [nndescent](src/main/java/nndescent)
